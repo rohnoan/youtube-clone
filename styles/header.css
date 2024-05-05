@@ -1,0 +1,134 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px ;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(219, 218, 218);
+  z-index: 10000;
+}
+
+.leftsection{
+ 
+  
+  display: flex;
+  align-items: center;
+}
+.middlesection{
+  max-width:500px;
+flex: 1;
+  
+  margin-left: 70px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+.rightsection
+{
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.hamburger{
+  height:20px ;
+  margin-left: 30px;
+}
+.youtubelogo{
+  height: 20px;
+  margin-left: 30px;
+}
+
+.searchbutton{
+  
+  height: 40px;
+  width: 66px;
+  background-color:rgb(248, 248, 248)s ;
+  border-width: 1px;
+  border-style:solid ;
+  border-color: rgb(194, 191, 191);
+}
+.voicesearchbutton{
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 20px;
+  background-color:rgb(248, 248, 248)s ;
+  border: none ;
+width: 40px;}
+
+.searchbar{
+  
+  width: 0;
+  flex: 1;
+height: 36px;
+font-size: 16px;
+border-width: 1px;
+border-style: solid;
+border-color: rgb(194, 191, 191);
+border-radius: 2px;
+box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.searchbar::placeholder{
+  font-family: roboto , arial;
+  font-size: 16px;
+  padding-left: 12px;
+}
+.searchicon{
+  width: 25px;
+  margin-top: 5px;
+}
+.voicesearchicon{
+  height: 25px;
+  padding-top: 5px;
+}
+.voicesearchbutton:hover{
+  cursor: pointer;
+}
+.searchbutton:hover{
+  cursor: pointer;
+}
+
+.mychannelicon{
+  height: 32px;
+}
+.notificationsicon{
+  height: 22px;
+}
+.youtbeappsicon{
+  width: 25px;
+  
+}
+.uploadicon{
+  
+  height: 22px;
+}
+.notificoncontainer{
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.notifcount{
+  position: absolute;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  font-family: roboto ,arial;
+  font-size: 10px;
+  top: 0;
+  right: 0;
+  top: -2px;
+  right: -2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 10px;
+}
